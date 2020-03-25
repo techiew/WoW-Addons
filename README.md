@@ -1,7 +1,7 @@
 ## WoW-Addons
 This is where I put some of my smaller WoW addons. 
 
-Here are some of my bigger addons: [FollowMePls](https://github.com/techiew/FollowMePls)
+Here are the repos for some of my bigger addons: [FollowMePls](https://github.com/techiew/FollowMePls)
 
 ### AutoResClassic
 ![Icon for AutoResClassic](https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg) 
