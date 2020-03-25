@@ -7,3 +7,5 @@
 
 AutoResClassic.lua
 
+# Github: https://github.com/techiew/WoW-Addons
+
