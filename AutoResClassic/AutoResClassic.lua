@@ -64,8 +64,12 @@ frame:SetScript("OnEvent", function(self, event, ...)
 		
 			if UnitAffectingCombat(playerName) == false then
 				AcceptResurrect()
+			else
+				print("Did not auto-accept res because the resurrector is in combat.")
 			end
 		
+		else
+			print("Did not auto-accept res because the resurrector is not in your party. Type '/arc combat 1' to auto-accept resses from anyone.")
 		end
 		
 	end
