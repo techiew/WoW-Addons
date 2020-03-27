@@ -7,3 +7,9 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
 ![Icon for AutoResClassic](https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg) 
 
 Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.
+
+## AutoSpit - CurseForge / WoWInterface
+
+![Icon for AutoSpit](https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg)
+
+Auto-spits on anyone in the enemy faction who dies near you. Read more on CurseForge or WoWInterface.
