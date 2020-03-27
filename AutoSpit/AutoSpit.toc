@@ -1,0 +1,10 @@
+## Interface: 11304
+## Title: AutoSpit
+## Notes: Auto spits on anyone in the enemy faction who dies near you.
+## Author: Techie
+## Version: 1.0
+## SavedVariables: NUM_PEOPLE_SPAT_ON
+
+AutoSpit.lua
+
+# Github: https://github.com/techiew/WoW-Addons
