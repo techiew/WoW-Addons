@@ -5,8 +5,8 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
 
 <table>
  <tr>
-  <td><h1>Addon</h1></td>
-  <td><h1>Download links</h1></td>
+  <td><h2>Addon</h2></td>
+  <td><h2>Download links</h2></td>
  </tr>
  
  <tr>
