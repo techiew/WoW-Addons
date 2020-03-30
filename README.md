@@ -7,8 +7,7 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
 
 <div>
 
-![Icon for AutoResClassic](https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg)
-<p style="vertical-align: top">Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</p>
+![Icon for AutoResClassic](https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg)<p style="vertical-align: top">Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</p>
 
 </div>
 
