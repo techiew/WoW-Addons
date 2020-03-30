@@ -1,5 +1,5 @@
 ## WoW-Addons
-This is where I put some of my smaller WoW addons. You can find some of by bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls)
+This is where I put my smaller WoW addons. You can find some of my bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls)
 
 <table>
  <tr>
