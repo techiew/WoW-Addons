@@ -9,9 +9,7 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
   <td><h3>Download links</h3></td>
  </tr>
  
- <tr>
-  <td><b>AutoResClassic</b></td>
- </tr>
+
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
   <td>Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</td>
