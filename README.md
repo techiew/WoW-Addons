@@ -5,9 +5,10 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
 
 <table>
  <tr>
-  <td>Addon</td>
-  <td>Download links</td>
+  <td><h1>Addon</h1></td>
+  <td><h1>Download links</h1></td>
  </tr>
+ 
  <tr>
   <td><b>AutoResClassic</b></td>
   <td><b><a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
