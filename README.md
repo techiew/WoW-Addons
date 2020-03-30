@@ -17,7 +17,7 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
 <table>
  <tr>
   <td><b>AutoResClassic</b></td>
-  <td><b>CurseForge / WoWInterface</b></td>
+  <td><b><a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
@@ -26,7 +26,7 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
  
  <tr>
   <td><b>AutoSpit</b></td>
-  <td><b><a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</img> / <a href="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</img></b></td>
+  <td><b><a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</a></b></td>
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
