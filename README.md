@@ -10,7 +10,7 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
  </tr>
  
  <tr>
-  <td><b>AutoResClassic</b></td>
+  <td><h4>AutoResClassic</h4></td>
   <td><b><a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
  </tr>
  <tr>
