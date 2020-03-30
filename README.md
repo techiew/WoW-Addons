@@ -5,10 +5,12 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
 
 ## AutoResClassic - [CurseForge](https://www.curseforge.com/wow/addons/autoresclassic) / [WoWInterface](https://www.wowinterface.com/downloads/info25526-AutoResClassic.html)
 
-<div>
-  <img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/>
-  Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.
-</div>
+<table>
+  <tr>
+    <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
+    <td>Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</td>
+  </tr>
+</table>
 
 ## AutoSpit - [CurseForge](https://www.curseforge.com/wow/addons/autospit) / [WoWInterface](https://www.wowinterface.com/downloads/info25528-AutoSpit.html)
 
