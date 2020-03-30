@@ -1,7 +1,7 @@
 ## WoW-Addons
 This is where I put some of my smaller WoW addons. 
 
-*You can find some of by bigger addons in these repos: [FollowMePls](https://github.com/techiew/FollowMePls)*
+You can find some of by bigger addons in these repos: [FollowMePls](https://github.com/techiew/FollowMePls)
 
 <table>
  <tr>
