@@ -11,7 +11,6 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
  
  <tr>
   <td><b>AutoResClassic</b></td>
-  <td><b><a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
