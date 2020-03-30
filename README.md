@@ -15,7 +15,7 @@ You can find some of by bigger addons in these repos: [FollowMePls](https://gith
  
  <tr>
   <td><b>AutoSpit</b></td>
-  <td><b><a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</a></b></td>
+  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</a></b></td>
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
