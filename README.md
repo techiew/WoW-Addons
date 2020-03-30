@@ -26,7 +26,7 @@ Here are the repos for some of my bigger addons: [FollowMePls](https://github.co
  
  <tr>
   <td><b>AutoSpit</b></td>
-  <td><b><img src="https://www.curseforge.com/wow/addons/autospit">CurseForge</img> / <img src="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</img></b></td>
+  <td><b><a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</img> / <a href="https://www.wowinterface.com/downloads/info25528-AutoSpit.html">WoWInterface</img></b></td>
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
