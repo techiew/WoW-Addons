@@ -24,4 +24,4 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
 ### Contributions:
 Feel free to provide suggestions, pull requests or code for any of these projects.
 
-**Thanks to anzz1 for his on/off switch suggestion**
+- Thanks to anzz1 for his on/off switch suggestion
