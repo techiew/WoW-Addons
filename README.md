@@ -20,3 +20,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td>Auto-spits on anyone in the enemy faction who dies near you. Read more on CurseForge or WoWInterface.</td>
  </tr>
 </table>
+
+### Contributions:
+Feel free to provide suggestions, pull requests or code for any of these projects.
+**Thanks to anzz1 for his on/off switch suggestion
