@@ -1,7 +1,7 @@
 ## WoW-Addons
 This is where I put my smaller WoW addons. You can find some of my bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls)
 
-<table>
+<table width="100%">
  <tr>
   <td><b>AutoResClassic</b></td>
   <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
