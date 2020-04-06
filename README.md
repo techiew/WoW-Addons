@@ -19,7 +19,6 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
   <td>Auto-spits on anyone in the enemy faction who dies near you. Read more on CurseForge or WoWInterface.</td>
  </tr>
-</table>
 
  <tr>
   <td><b>BiggestExecute</b></td>
