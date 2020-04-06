@@ -8,7 +8,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
-  <td>Automatically accepts resses from other people.</td>
+  <td>Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</td>
  </tr>
  
  <tr>
@@ -17,7 +17,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
-  <td>Auto-spits on anyone in the enemy faction who dies near you.</td>
+  <td>Auto-spits on anyone in the enemy faction who dies near you. Read more on CurseForge or WoWInterface.</td>
  </tr>
 
  <tr>
@@ -26,7 +26,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
-  <td>Tracks and announces your biggest executes for PvE and PvP.</td>
+  <td>Tracks and announces your biggest executes for PvE and PvP. Read more on CurseForge or WoWInterface.</td>
  </tr>
 </table>
 
