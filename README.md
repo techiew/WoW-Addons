@@ -21,6 +21,16 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
 </table>
 
+ <tr>
+  <td><b>BiggestExecute</b></td>
+  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/biggestexecute">CurseForge</a> / WoWInterface</b></td>
+ </tr>
+ <tr>
+  <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
+  <td>Tracks and announces your biggest executes for PvE and PvP. Read more on CurseForge or WoWInterface.</td>
+ </tr>
+</table>
+
 ### Contributions:
 Feel free to provide suggestions, pull requests or code for any of these projects.
 
