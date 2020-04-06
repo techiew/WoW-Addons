@@ -7,7 +7,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
  </tr>
  <tr>
-  <td><img align="center" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
+  <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
   <td>Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</td>
  </tr>
  
