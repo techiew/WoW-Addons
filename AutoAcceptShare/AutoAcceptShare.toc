@@ -1,0 +1,11 @@
+## Interface: 11304
+## Title: AutoAcceptShare
+## Notes: Automatically accepts quests shared by other players.
+## Author: Techie
+## Version: 1.0
+## SavedVariablesPerCharacter: AAS_ENABLED
+
+AutoAcceptShare.lua
+
+# Github: https://github.com/techiew/WoW-Addons
+
