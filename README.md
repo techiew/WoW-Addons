@@ -1,5 +1,5 @@
 ## WoW-Addons
-This is where I put my smaller WoW addons. You can find some of my bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls)
+This is where I put my smaller WoW addons. You can find some of my bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls), [LinkSpellsClassic](https://github.com/techiew/LinkSpellsClassic)
 
 <table>
  <tr>
@@ -8,7 +8,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
-  <td>Automatically accepts resses from other people. Read more on CurseForge or WoWInterface.</td>
+  <td width="100%">Automatically accepts resses from other people.</td>
  </tr>
  
  <tr>
@@ -17,7 +17,16 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
  <tr>
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
-  <td>Auto-spits on anyone in the enemy faction who dies near you. Read more on CurseForge or WoWInterface.</td>
+  <td>Auto-spits on anyone in the enemy faction who dies near you.</td>
+ </tr>
+
+ <tr>
+  <td><b>BiggestExecute</b></td>
+  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/biggestexecute">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25534-BiggestExecute.html">WoWInterface</a></b></td>
+ </tr>
+ <tr>
+  <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
+  <td>Tracks and announces your biggest executes for PvE and PvP.</td>
  </tr>
 </table>
 
