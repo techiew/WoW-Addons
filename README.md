@@ -28,6 +28,15 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
   <td>Tracks and announces your biggest executes for PvE and PvP.</td>
  </tr>
+ 
+ <tr>
+  <td><b>AutoAcceptShare</b></td>
+  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autoacceptshare">CurseForge</a> / <a href="">WoWInterface</a></b></td>
+ </tr>
+ <tr>
+  <td><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoAcceptShare/AutoAcceptShare%20icon.jpg"/></td>
+  <td>Auto-accepts shared quests from other players.</td>
+ </tr>
 </table>
 
 ### Contributions:
