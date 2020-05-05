@@ -1,6 +1,4 @@
 
-local loaded = false
-
 -- These variables and functions are used for print formatting.
 local line = "|c002F2F2A---------------------------------------------|r"
 local pre = "|c002F2F2A*|r   "
@@ -21,7 +19,7 @@ end
 
 local function AnnounceBiggestExecute(dmg, isCrit, isPVP)
 	
-	if ANNOUNCE_BIGGEST == 0 then return end
+	if BE_ANNOUNCE_BIGGEST == 0 then return end
 	
 	local chatChannel = "NONE"
 	if UnitInParty("player") then chatChannel = "PARTY" end
@@ -34,15 +32,15 @@ local function AnnounceBiggestExecute(dmg, isCrit, isPVP)
 	if isPVP then versusText = "PVP" end
 	if isCrit then critText = " crit " end
 	
-	if ANNOUNCE_BIGGEST == 1 then
-		print(subj("NEW " .. versusText .. " EXECUTE RECORD: ") .. desc(dmg) .. subj(critText .. "damage!"))
+	if BE_ANNOUNCE_BIGGEST == 1 then
+		print(subj("[BiggestExecute] NEW " .. versusText .. " EXECUTE RECORD: ") .. desc(dmg) .. subj(critText .. "damage!"))
 		return
 	end
 	
 	if chatChannel == "NONE" then
-		print(subj("NEW " .. versusText .. " EXECUTE RECORD: ") .. desc(dmg) .. subj(critText .. "damage!"))
+		print(subj("[BiggestExecute] NEW " .. versusText .. " EXECUTE RECORD: ") .. desc(dmg) .. subj(critText .. "damage!"))
 	else
-		SendChatMessage("NEW " .. versusText .. " EXECUTE RECORD: " .. dmg .. critText .. "damage!", chatChannel)
+		SendChatMessage("[BiggestExecute] NEW " .. versusText .. " EXECUTE RECORD: " .. dmg .. critText .. "damage!", chatChannel)
 	end
 	
 end
@@ -65,7 +63,7 @@ local function ShowStats(dmg, victim, isCrit, isPVP, doParse)
 	if isCrit then critText = " crit " end
 	
 	if chatChannel == "NONE" or doParse == false then
-		print(subj("My biggest execute" .. critText .. "in " .. versusText .. " is ") .. desc(dmg) .. subj(" against ") .. desc(victim) .. subj("."))
+		print(subj("[BiggestExecute] My biggest execute" .. critText .. "in " .. versusText .. " is ") .. desc(dmg) .. subj(" against ") .. desc(victim) .. subj("."))
 	else
 		SendChatMessage("[BiggestExecute] My biggest execute" .. critText .. "in " .. versusText .. " is " .. dmg .. " against " .. victim .. ".", chatChannel)
 	end
@@ -73,76 +71,82 @@ local function ShowStats(dmg, victim, isCrit, isPVP, doParse)
 end
 
 SLASH_BIGGESTEXECUTE1 = "/big"
+SLASH_BIGGESTEXECUTE2 = "/biggestexecute"
 
 -- Handle slash commands
 SlashCmdList["BIGGESTEXECUTE"] = function(cmd)
-
-	if not loaded then return end
-	
-	if cmd == "" then
-		print(line)
-		print(pre .. header("BiggestExecute Commands"))
-		print(pre .. subj("/big pve") .. sep .. desc("Show PvE records."))
-		print(pre .. subj("/big pvp") .. sep .. desc("Show PvP records."))
-		print(pre .. subj("/big parse pve") .. sep .. desc("Parse PvE record to chat. Add 'crit' to parse biggest crit."))
-		print(pre .. subj("/big parse pvp") .. sep .. desc("Parse PvP record to chat. Add 'crit' to parse biggest crit."))
-		print(pre .. subj("/big 0/1/2") .. sep .. desc("0 = Disable announcing records. 1 = Announce only to yourself. 2 = Announce to your party/raid or to yourself."))
-		print(pre .. subj("/big msg") .. sep .. desc("Disables the login message."))
-	end
-	
+		
 	if cmd == "pve" then
-		ShowStats(BIGGEST_PVE, BIGGEST_PVE_VICTIM, false, false, false)
-		ShowStats(BIGGEST_PVE_CRIT, BIGGEST_PVE_CRIT_VICTIM, true, false, false)
+		ShowStats(BE_BIGGEST_PVE, BE_BIGGEST_PVE_VICTIM, false, false, false)
+		ShowStats(BE_BIGGEST_PVE_CRIT, BE_BIGGEST_PVE_CRIT_VICTIM, true, false, false)
+		return
 	end
 	
 	if cmd == "pvp" then
-		ShowStats(BIGGEST_PVP, BIGGEST_PVP_VICTIM, false, true, false)
-		ShowStats(BIGGEST_PVP_CRIT, BIGGEST_PVP_CRIT_VICTIM, true, true, false)
+		ShowStats(BE_BIGGEST_PVP, BE_BIGGEST_PVP_VICTIM, false, true, false)
+		ShowStats(BE_BIGGEST_PVP_CRIT, BE_BIGGEST_PVP_CRIT_VICTIM, true, true, false)
+		return
 	end
 	
 	if cmd == "parse pve" then
-		ShowStats(BIGGEST_PVE, BIGGEST_PVE_VICTIM, false, false, true)
+		ShowStats(BE_BIGGEST_PVE, BE_BIGGEST_PVE_VICTIM, false, false, true)
+		return
 	end
 	
 	if cmd == "parse pve crit" then
-		ShowStats(BIGGEST_PVE_CRIT, BIGGEST_PVE_CRIT_VICTIM, true, false, true)
+		ShowStats(BE_BIGGEST_PVE_CRIT, BE_BIGGEST_PVE_CRIT_VICTIM, true, false, true)
+		return
 	end
 	
 	if cmd == "parse pvp" then
-		ShowStats(BIGGEST_PVP, BIGGEST_PVP_VICTIM, false, true, true)
+		ShowStats(BE_BIGGEST_PVP, BE_BIGGEST_PVP_VICTIM, false, true, true)
+		return
 	end
 	
 	if cmd == "parse pvp crit" then
-		ShowStats(BIGGEST_PVP_CRIT, BIGGEST_PVP_CRIT_VICTIM, true, true, true)
+		ShowStats(BE_BIGGEST_PVP_CRIT, BE_BIGGEST_PVP_CRIT_VICTIM, true, true, true)
+		return
 	end
 	
 	if cmd == "0" then
-		ANNOUNCE_BIGGEST = 0
+		BE_ANNOUNCE_BIGGEST = 0
 		print("You will no longer announce execute damage records.")
+		return
 	end
 	
 	if cmd == "1" then
-		ANNOUNCE_BIGGEST = 1
+		BE_ANNOUNCE_BIGGEST = 1
 		print("You will only announce execute damage records to yourself.")
+		return
 	end
 	
 	if cmd == "2" then
-		ANNOUNCE_BIGGEST = 2
+		BE_ANNOUNCE_BIGGEST = 2
 		print("You will announce execute damage records to yourself or party members (does not announce in raids).")
+		return
 	end
 	
 	if cmd == "msg" then
 	
-		if LOGIN_MSG == 0 then
-			LOGIN_MSG = 1
+		if BE_LOGIN_MSG == 0 then
+			BE_LOGIN_MSG = 1
 			print("Login message enabled.")
 		else
-			LOGIN_MSG = 0
+			BE_LOGIN_MSG = 0
 			print("Login message disabled.")
 		end
 		
+		return
 	end
 	
+	print(line)
+	print(pre .. header("BiggestExecute Commands:"))
+	print(pre .. subj("/big pve") .. sep .. desc("Show PvE records."))
+	print(pre .. subj("/big pvp") .. sep .. desc("Show PvP records."))
+	print(pre .. subj("/big parse pve") .. sep .. desc("Parse PvE record to chat. Add 'crit' to parse biggest crit."))
+	print(pre .. subj("/big parse pvp") .. sep .. desc("Parse PvP record to chat. Add 'crit' to parse biggest crit."))
+	print(pre .. subj("/big 0/1/2") .. sep .. desc("0 = Disable announcing records. 1 = Announce only to yourself. 2 = Announce to your party and to yourself."))
+	print(pre .. subj("/big msg") .. sep .. desc("Disables the login message."))
 end
 
 
@@ -164,52 +168,51 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	
 		if arg1 == "BiggestExecute" then
 			
-			if BIGGEST_PVE == nil then
-				BIGGEST_PVE = 0
+			if BE_BIGGEST_PVE == nil then
+				BE_BIGGEST_PVE = 0
 			end
 			
-			if BIGGEST_PVE_VICTIM == nil then
-				BIGGEST_PVE_VICTIM = "None"
+			if BE_BIGGEST_PVE_VICTIM == nil then
+				BE_BIGGEST_PVE_VICTIM = "None"
 			end
 			
-			if BIGGEST_PVP == nil then
-				BIGGEST_PVP = 0
+			if BE_BIGGEST_PVP == nil then
+				BE_BIGGEST_PVP = 0
 			end
 			
-			if BIGGEST_PVP_VICTIM == nil then
-				BIGGEST_PVP_VICTIM = "None"
+			if BE_BIGGEST_PVP_VICTIM == nil then
+				BE_BIGGEST_PVP_VICTIM = "None"
 			end
 			
-			if BIGGEST_PVE_CRIT == nil then
-				BIGGEST_PVE_CRIT = 0
+			if BE_BIGGEST_PVE_CRIT == nil then
+				BE_BIGGEST_PVE_CRIT = 0
 			end
 			
-			if BIGGEST_PVE_CRIT_VICTIM == nil then
-				BIGGEST_PVE_CRIT_VICTIM = "None"
+			if BE_BIGGEST_PVE_CRIT_VICTIM == nil then
+				BE_BIGGEST_PVE_CRIT_VICTIM = "None"
 			end
 			
-			if BIGGEST_PVP_CRIT == nil then
-				BIGGEST_PVP_CRIT = 0
+			if BE_BIGGEST_PVP_CRIT == nil then
+				BE_BIGGEST_PVP_CRIT = 0
 			end
 			
-			if BIGGEST_PVP_CRIT_VICTIM == nil then
-				BIGGEST_PVP_CRIT_VICTIM = "None"
+			if BE_BIGGEST_PVP_CRIT_VICTIM == nil then
+				BE_BIGGEST_PVP_CRIT_VICTIM = "None"
 			end
 			
-			if ANNOUNCE_BIGGEST == nil then
-				ANNOUNCE_BIGGEST = 2
+			if BE_ANNOUNCE_BIGGEST == nil then
+				BE_ANNOUNCE_BIGGEST = 2
 			end
 			
-			if LOGIN_MSG == nil then
-				LOGIN_MSG = 1
+			if BE_LOGIN_MSG == nil then
+				BE_LOGIN_MSG = 1
 			end
 			
-			if LOGIN_MSG == 1 then
+			if BE_LOGIN_MSG == 1 then
 				print(pre .. subj("BiggestExecute loaded."))
 				print(pre .. subj("Type /big to see commands."))
 			end
 			
-			loaded = true
 		end
 		
 	end
@@ -232,18 +235,18 @@ frame:SetScript("OnEvent", function(self, event, ...)
 		
 			if critical then
 				
-				if spellDamage > BIGGEST_PVP_CRIT then
+				if spellDamage > BE_BIGGEST_PVP_CRIT then
 					AnnounceBiggestExecute(spellDamage, true, true)
-					BIGGEST_PVP_CRIT = spellDamage
-					BIGGEST_PVP_CRIT_VICTIM = UnitName("target")
+					BE_BIGGEST_PVP_CRIT = spellDamage
+					BE_BIGGEST_PVP_CRIT_VICTIM = UnitName("target")
 				end
 				
 			else
 			
-				if spellDamage > BIGGEST_PVP then
+				if spellDamage > BE_BIGGEST_PVP then
 					AnnounceBiggestExecute(spellDamage, false, true)
-					BIGGEST_PVP = spellDamage
-					BIGGEST_PVP_VICTIM = UnitName("target")
+					BE_BIGGEST_PVP = spellDamage
+					BE_BIGGEST_PVP_VICTIM = UnitName("target")
 				end
 				
 			end
@@ -252,18 +255,18 @@ frame:SetScript("OnEvent", function(self, event, ...)
 		
 			if critical then
 				
-				if spellDamage > BIGGEST_PVE_CRIT then
+				if spellDamage > BE_BIGGEST_PVE_CRIT then
 					AnnounceBiggestExecute(spellDamage, true, false)
-					BIGGEST_PVE_CRIT = spellDamage
-					BIGGEST_PVE_CRIT_VICTIM = UnitName("target")
+					BE_BIGGEST_PVE_CRIT = spellDamage
+					BE_BIGGEST_PVE_CRIT_VICTIM = UnitName("target")
 				end
 				
 			else
 			
-				if spellDamage > BIGGEST_PVE then
+				if spellDamage > BE_BIGGEST_PVE then
 					AnnounceBiggestExecute(spellDamage, false, false)
-					BIGGEST_PVE = spellDamage
-					BIGGEST_PVE_VICTIM = UnitName("target")
+					BE_BIGGEST_PVE = spellDamage
+					BE_BIGGEST_PVE_VICTIM = UnitName("target")
 				end
 				
 			end

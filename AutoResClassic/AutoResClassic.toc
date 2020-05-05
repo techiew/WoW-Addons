@@ -2,8 +2,8 @@
 ## Title: AutoResClassic
 ## Notes: Automatically accepts resses.
 ## Author: Techie
-## Version: 1.0
-## SavedVariablesPerCharacter: ARC_ACCEPT_IN_COMBAT
+## Version: 1.1
+## SavedVariablesPerCharacter: ARC_ENABLED, ARC_ACCEPT_IN_COMBAT
 
 AutoResClassic.lua
 
