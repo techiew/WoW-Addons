@@ -2,7 +2,7 @@
 ## Title: BiggestExecute
 ## Notes: Tracks and announces your biggest executes for PvE and PvP.
 ## Author: Techie
-## Version: 1.1
+## Version: 1.2
 ## SavedVariablesPerCharacter: BE_BIGGEST_PVE, BE_BIGGEST_PVE_VICTIM, BE_BIGGEST_PVP, BE_BIGGEST_PVP_VICTIM, BE_BIGGEST_PVE_CRIT, BE_BIGGEST_PVE_CRIT_VICTIM, BE_BIGGEST_PVP_CRIT, BE_BIGGEST_PVP_CRIT_VICTIM, BE_ANNOUNCE_BIGGEST, BE_LOGIN_MSG
 
 BiggestExecute.lua

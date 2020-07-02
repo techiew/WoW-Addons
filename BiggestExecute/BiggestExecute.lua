@@ -153,8 +153,10 @@ end
 -- Set up our frame.
 local frame = CreateFrame("Frame", "BiggestExecuteFrame")
 
+local localizedClass, englishClass, classIndex = UnitClass("player");
+
 -- Only bother loading this addon on warrior characters.
-if UnitClass("player") == "Warrior" then
+if englishClass == "WARRIOR" then
 	frame:RegisterEvent("ADDON_LOADED")
 	frame:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
 end
@@ -227,7 +229,10 @@ frame:SetScript("OnEvent", function(self, event, ...)
 				
 		if sourceName ~= UnitName("player") then return end
 				
-		if spellName ~= "Execute" then return end
+		local localName, rank, icon, castTime, 
+			minRange, maxRange, spellId = GetSpellInfo(5308)
+				
+		if spellName ~= localName then return end
 		
 		if type(spellDamage) == "string" then return end
 		
