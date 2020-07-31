@@ -1,5 +1,8 @@
 ## WoW-Addons
-This is where I put my smaller WoW addons. You can find some of my bigger addons here: [FollowMePls](https://github.com/techiew/FollowMePls), [LinkSpellsClassic](https://github.com/techiew/LinkSpellsClassic)
+This is where I put my smaller WoW addons. You can find some of my bigger addons here: 
+
+**[FollowMePls](https://github.com/techiew/FollowMePls),**
+**[LinkSpellsClassic](https://github.com/techiew/LinkSpellsClassic)**
 
 <table>
  <tr>
