@@ -1,0 +1,10 @@
+## Interface: 20501
+## Title: AutoFart
+## Notes: Automatically farts on anyone in the enemy faction who dies near you.
+## Author: Techie
+## Version: 1.0
+## SavedVariables: NUM_PEOPLE_FARTED_ON
+
+AutoFart.lua
+
+# Github: https://github.com/techiew/WoW-Addons
