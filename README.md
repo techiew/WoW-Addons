@@ -10,10 +10,19 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autoacceptres">CurseForge</a></b></td>
  </tr>
  <tr>
-  <td align="middle"><img src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
+  <td align="middle"><img src="https://raw.githubusercontent.com/techiew/WoW-Addons/master/AutoAcceptRes/AutoAcceptRes%20icon.jpg"/></td>
   <td width="100%">Automatically accepts resses from other players.</td>
  </tr>
  
+ <tr>
+  <td align="middle"><b>AutoAcceptShare</b></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autoacceptshare">CurseForge</a></b></td>
+ </tr>
+ <tr>
+  <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoAcceptShare/AutoAcceptShare%20icon.jpg"/></td>
+  <td>Auto-accepts shared quests from other players.</td>
+ </tr>
+
  <tr>
   <td align="middle"><b>AutoSpit</b></td>
   <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a></b></td>
@@ -30,15 +39,6 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  <tr>
   <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
   <td>Tracks and announces your biggest executes for PvE and PvP.</td>
- </tr>
- 
- <tr>
-  <td align="middle"><b>AutoAcceptShare</b></td>
-  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autoacceptshare">CurseForge</a></b></td>
- </tr>
- <tr>
-  <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoAcceptShare/AutoAcceptShare%20icon.jpg"/></td>
-  <td>Auto-accepts shared quests from other players.</td>
  </tr>
 </table>
 
