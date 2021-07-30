@@ -1,0 +1,11 @@
+## Interface: 20501
+## Title: AutoAcceptRes
+## Notes: Automatically accepts resses.
+## Author: Techie
+## Version: 1.2
+## SavedVariablesPerCharacter: AAR_ENABLED, AAR_ACCEPT_IN_COMBAT
+
+AutoAcceptRes.lua
+
+# Github: https://github.com/techiew/WoW-Addons
+

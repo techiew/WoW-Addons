@@ -1,54 +1,54 @@
 
-SLASH_ARC1 = "/arc"
-SLASH_ARC2 = "/autoresclassic"
+SLASH_AAR1 = "/aar"
+SLASH_AAR2 = "/autoacceptres"
 
 -- Handle slash commands
-SlashCmdList["ARC"] = function(msg)
+SlashCmdList["AAR"] = function(msg)
 		
 	if msg == "0" then
-		ARC_ENABLED = 0
-		print("AutoResClassic is now disabled.")
+		AAR_ENABLED = 0
+		print("AutoAcceptRes is now disabled.")
 		return
 	end
 	
 	if msg == "1" then
-		ARC_ENABLED = 1
-		print("AutoResClassic is now enabled.")
+		AAR_ENABLED = 1
+		print("AutoAcceptRes is now enabled.")
 		return
 	end
 	
 	if msg == "combat 0" then
-		ARC_ACCEPT_IN_COMBAT = 0
+		AAR_ACCEPT_IN_COMBAT = 0
 		print("You won't auto-accept resses while the resurrector is in combat.")
 		return
 	end
 	
 	if msg == "combat 1" then
-		ARC_ACCEPT_IN_COMBAT = 1
+		AAR_ACCEPT_IN_COMBAT = 1
 		print("You will auto-accept resses even if the resurrector is in combat.")
 		return
 	end
 	
 	if msg == "enabled" then
-		print("'enabled' is set to: " .. ARC_ENABLED)
+		print("'enabled' is set to: " .. AAR_ENABLED)
 		return
 	end
 	
 	if msg == "combat" then
-		print("'combat' is set to: " .. ARC_ACCEPT_IN_COMBAT)
+		print("'combat' is set to: " .. AAR_ACCEPT_IN_COMBAT)
 		return
 	end
 
 	print("|c002F2F2A---------------------------------------------|r")
-	print("|c002F2F2A*|r   |c00FCED33AutoResClassic Commands:|r")
-	print("|c002F2F2A*|r   |c00FCED33/arc 0|r - Disables the addon.")
-	print("|c002F2F2A*|r   |c00FCED33/arc 1|r - Enables the addon.")
-	print("|c002F2F2A*|r   |c00FCED33/arc combat 0|r - To not auto-accept resses while the resurrector is in combat.")
-	print("|c002F2F2A*|r   |c00FCED33/arc combat 1|r - To auto-accept resses while the resurrector is in combat.")
+	print("|c002F2F2A*|r   |c00FCED33AutoAcceptRes Commands:|r")
+	print("|c002F2F2A*|r   |c00FCED33/aar 0|r - Disables the addon.")
+	print("|c002F2F2A*|r   |c00FCED33/aar 1|r - Enables the addon.")
+	print("|c002F2F2A*|r   |c00FCED33/aar combat 0|r - To not auto-accept resses while the resurrector is in combat.")
+	print("|c002F2F2A*|r   |c00FCED33/aar combat 1|r - To auto-accept resses while the resurrector is in combat.")
 end
 
 -- Set up our frame
-local frame = CreateFrame("Frame", "AutoResClassicFrame")
+local frame = CreateFrame("Frame", "AutoAcceptResFrame")
 frame:RegisterEvent("ADDON_LOADED")
 frame:RegisterEvent("RESURRECT_REQUEST")
 frame:RegisterEvent("PLAYER_UNGHOST")
@@ -60,14 +60,14 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	if event == "ADDON_LOADED" then
 		local arg1 = ...
 		
-		if arg1 == "AutoResClassic" then
+		if arg1 == "AutoAcceptRes" then
 			
-			if ARC_ENABLED == nil then
-				ARC_ENABLED = 1
+			if AAR_ENABLED == nil then
+				AAR_ENABLED = 1
 			end
 			
-			if ARC_ACCEPT_IN_COMBAT == nil then
-				ARC_ACCEPT_IN_COMBAT = 0
+			if AAR_ACCEPT_IN_COMBAT == nil then
+				AAR_ACCEPT_IN_COMBAT = 0
 			end
 					
 		end
@@ -77,20 +77,20 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	if event == "RESURRECT_REQUEST" then
 		playerName = ...
 		
-		if ARC_ENABLED ~= 1 then return end
+		if AAR_ENABLED ~= 1 then return end
 		
-		if ARC_ACCEPT_IN_COMBAT == 1 then
+		if AAR_ACCEPT_IN_COMBAT == 1 then
 			AcceptResurrect()
 		elseif UnitInParty(playerName) or UnitInRaid(playerName) ~= nil then
 		
 			if UnitAffectingCombat(playerName) == false then
 				AcceptResurrect()
 			else
-				print("Did not auto-accept res because the resurrector is in combat.")
+				print("Did not auto-accept res because the resurrector is in combat. Type '/aar combat 1' to ignore this.")
 			end
 		
 		else
-			print("Did not auto-accept res because the resser is not in your party. Type '/arc combat 1' to auto-accept resses from anyone.")
+			print("Did not auto-accept res because the resser is not in your party. Type '/aar combat 1' to auto-accept resses from anyone.")
 		end
 		
 	end
