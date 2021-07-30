@@ -24,6 +24,15 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  </tr>
 
  <tr>
+  <td align="middle"><b>AutoFart</b></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autofart">CurseForge</a></b></td>
+ </tr>
+ <tr>
+  <td align="middle"><img align="top" src="https://raw.githubusercontent.com/techiew/WoW-Addons/master/AutoFart/AutoFart%20icon.jpg"/></td>
+  <td>Sequel to AutoSpit since Blizzard wants to remove /spit.</td>
+ </tr>
+ 
+ <tr>
   <td align="middle"><b>AutoSpit</b></td>
   <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a></b></td>
  </tr>
