@@ -6,8 +6,8 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
 
 <table>
  <tr>
-  <td align="middle"><b>AutoResClassic</b></td>
-  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autoresclassic">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25526-AutoResClassic.html">WoWInterface</a></b></td>
+  <td align="middle"><b>AutoAcceptRes</b></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autoacceptres">CurseForge</a></b></td>
  </tr>
  <tr>
   <td align="middle"><img src="https://github.com/techiew/WoW-Addons/blob/master/AutoResClassic/AutoResClassic%20icon.jpg"/></td>
