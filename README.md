@@ -16,7 +16,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  
  <tr>
   <td align="middle"><b>AutoSpit</b></td>
-  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autospit">CurseForge</a></b></td>
  </tr>
  <tr>
   <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoSpit/AutoSpit%20icon.jpg"/></td>
@@ -25,7 +25,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
 
  <tr>
   <td align="middle"><b>BiggestExecute</b></td>
-  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/biggestexecute">CurseForge</a></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/biggestexecute">CurseForge</a></b></td>
  </tr>
  <tr>
   <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
@@ -34,7 +34,7 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
  
  <tr>
   <td align="middle"><b>AutoAcceptShare</b></td>
-  <td><b>Links: <a href="https://www.curseforge.com/wow/addons/autoacceptshare">CurseForge</a> / <a href="https://www.wowinterface.com/downloads/info25560-AutoAcceptShare.html">WoWInterface</a></b></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/autoacceptshare">CurseForge</a></b></td>
  </tr>
  <tr>
   <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/AutoAcceptShare/AutoAcceptShare%20icon.jpg"/></td>
