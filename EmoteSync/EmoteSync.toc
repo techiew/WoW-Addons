@@ -1,0 +1,11 @@
+## Interface: 20501
+## Title: EmoteSync
+## Notes: Perform emotes in perfect unison with your group members.
+## Author: Techie
+## Version: 1.0
+## SavedVariablesPerCharacter: ESYNC_ENABLED, ESYNC_MSG
+
+EmoteSync.lua
+
+# Github: https://github.com/techiew/WoW-Addons
+
