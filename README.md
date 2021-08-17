@@ -49,6 +49,15 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
   <td align="middle"><img align="top" src="https://github.com/techiew/WoW-Addons/blob/master/BiggestExecute/BiggestExecute%20icon.png"/></td>
   <td>Tracks and announces your biggest executes for PvE and PvP.</td>
  </tr>
+ 
+ <tr>
+  <td align="middle"><b>EmoteSync</b></td>
+  <td><b>Download link: <a href="https://www.curseforge.com/wow/addons/emotesync">CurseForge</a></b></td>
+ </tr>
+ <tr>
+  <td align="middle"><img align="top" src="https://raw.githubusercontent.com/techiew/WoW-Addons/master/EmoteSync/EmoteSync%20icon.jpg"/></td>
+  <td>Perform emotes in perfect unison with your group members.</td>
+ </tr>
 </table>
 
 ### Contributions:
