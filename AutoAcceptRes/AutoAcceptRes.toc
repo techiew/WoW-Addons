@@ -2,7 +2,7 @@
 ## Title: AutoAcceptRes
 ## Notes: Automatically accepts resses.
 ## Author: Techie
-## Version: 1.2
+## Version: 1.3
 ## SavedVariablesPerCharacter: AAR_ENABLED, AAR_ACCEPT_IN_COMBAT
 
 AutoAcceptRes.lua
