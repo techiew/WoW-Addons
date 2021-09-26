@@ -75,10 +75,15 @@ frame:SetScript("OnEvent", function(self, event, ...)
 	end
 		
 	if event == "RESURRECT_REQUEST" then
-		playerName = ...
+		local playerName = ...
 		
 		if AAR_ENABLED ~= 1 then return end
 		
+		if GetCorpseRecoveryDelay() > 0 then
+			print("Could not auto-accept res because you are on resurrect delay.")
+			return
+		end
+
 		if AAR_ACCEPT_IN_COMBAT == 1 then
 			AcceptResurrect()
 		elseif UnitInParty(playerName) or UnitInRaid(playerName) ~= nil then
