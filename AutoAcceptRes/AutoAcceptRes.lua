@@ -54,6 +54,7 @@ local instanceSpecificItems = {
     23865, -- Wrath of the Titans (Karazhan)
     23862, -- Redemption of the Fallen (Karazhan)
     24494, -- Tears of the Goddess (CoT: Hyjal)
+    32408, -- Naj'entus Spine (Black Temple)
 }
 local function FindInstanceSpecificItem()
     for _,itemId in ipairs(instanceSpecificItems) do
