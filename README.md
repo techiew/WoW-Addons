@@ -64,4 +64,4 @@ This is where I put my smaller WoW addons. You can find some of my bigger addons
 Feel free to provide suggestions, pull requests or code for any of these projects.
 
 - Thanks to **anzz1** for his on/off switch suggestion for ARC and teaching me about lua tables.
-- Thanks to **Treeston** for his resurrect delay fix: [#2](https://github.com/techiew/WoW-Addons/pull/2).
+- Thanks to **Treeston** for his resurrect delay fix: [#2](https://github.com/techiew/WoW-Addons/pull/2), and his instance item detection: [#3](https://github.com/techiew/WoW-Addons/pull/3)
