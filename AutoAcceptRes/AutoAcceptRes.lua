@@ -47,6 +47,23 @@ SlashCmdList["AAR"] = function(msg)
 	print("|c002F2F2A*|r   |c00FCED33/aar combat 1|r - To auto-accept resses while the resurrector is in combat.")
 end
 
+-- Instance-specific items that would be removed by accepting as a ghost
+local instanceSpecificItems = {
+    23857, -- Legacy of the Mountain King (Karazhan)
+    23864, -- Torment of the Worgen (Karazhan)
+    23865, -- Wrath of the Titans (Karazhan)
+    23862, -- Redemption of the Fallen (Karazhan)
+    24494, -- Tears of the Goddess (CoT: Hyjal)
+    32408, -- Naj'entus Spine (Black Temple)
+}
+local function FindInstanceSpecificItem()
+    for _,itemId in ipairs(instanceSpecificItems) do
+        if GetItemCount(itemId) > 0 then
+            return itemId
+        end
+    end
+end
+
 -- Set up our frame
 local frame = CreateFrame("Frame", "AutoAcceptResFrame")
 frame:RegisterEvent("ADDON_LOADED")
@@ -83,6 +100,19 @@ frame:SetScript("OnEvent", function(self, event, ...)
 			print("Could not auto-accept res because you are on resurrect delay.")
 			return
 		end
+        
+        if UnitIsGhost("player") then
+            local foundItem = FindInstanceSpecificItem()
+            if foundItem then
+                local _, itemLink = GetItemInfo(foundItem)
+                if not itemLink then
+                    itemLink = ("[unknown item #%d]"):format(foundItem)
+                end
+                print(("Did not auto-accept res because you would lose %s upon accepting."):format(itemLink))
+                return
+            end
+        end
+          
 
 		if AAR_ACCEPT_IN_COMBAT == 1 then
 			AcceptResurrect()
