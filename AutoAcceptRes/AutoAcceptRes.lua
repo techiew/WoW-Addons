@@ -56,8 +56,9 @@ local instanceSpecificItems = {
     24494, -- Tears of the Goddess (CoT: Hyjal)
     32408, -- Naj'entus Spine (Black Temple)
 }
+
 local function FindInstanceSpecificItem()
-    for _,itemId in ipairs(instanceSpecificItems) do
+    for _, itemId in ipairs(instanceSpecificItems) do
         if GetItemCount(itemId) > 0 then
             return itemId
         end
@@ -103,14 +104,18 @@ frame:SetScript("OnEvent", function(self, event, ...)
         
         if UnitIsGhost("player") then
             local foundItem = FindInstanceSpecificItem()
+			
             if foundItem then
                 local _, itemLink = GetItemInfo(foundItem)
+				
                 if not itemLink then
                     itemLink = ("[unknown item #%d]"):format(foundItem)
                 end
+				
                 print(("Did not auto-accept res because you would lose %s upon accepting."):format(itemLink))
                 return
             end
+			
         end
           
 
